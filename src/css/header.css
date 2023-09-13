@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.logo {
+  color: white;
+  font-size: 2rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.link-item {
+  margin-left: 20px;
+
+  font-family: inherit;
+  font-size: 0.85rem;
+
+  border-radius: 2px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color-1);
+  transition: all 0.4s;
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+
+.link:hover {
+  color: var(--text-color-1-hover);
+}
+
+.btn-link {
+  background-color: var(--btn-color-1);
+}
+.btn-link:hover {
+  background-color: var(--btn-color-1-hover);
+}

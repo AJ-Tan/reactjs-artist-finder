@@ -1,0 +1,37 @@
+:root {
+  --btn-color-1: rgb(41, 123, 255);
+  --btn-color-1-hover: rgb(11, 105, 255);
+  --btn-color-1-text: rgb(255, 255, 255);
+  --background-color: rgb(238, 238, 252);
+  --border-blue: rgb(41, 123, 255);
+  --text-color-1: rgba(255, 255, 255, 0.7);
+  --text-color-1-hover: rgba(255, 255, 255, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position-y: -110px;
+  background-color: var(--background-color);
+  font-family: Poppins;
+  padding: 0 20px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.bg {
+  position: fixed;
+  z-index: -1;
+  top: -100px;
+  left: 0px;
+}
+
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+}
