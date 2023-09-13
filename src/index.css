@@ -39,4 +39,5 @@ body {
 .footer {
   max-width: 1000px;
   margin: 20px auto;
+  animation: fade-in 0.4s 0.2s backwards;
 }
