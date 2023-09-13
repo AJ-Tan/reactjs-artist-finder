@@ -21,17 +21,17 @@ body {
   font-family: Poppins;
 }
 
+#root {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
 .bg {
   position: absolute;
   z-index: -1;
   top: -100px;
   left: 0px;
-}
-
-#root {
-  position: relative;
-  overflow: hidden;
-  padding: 0 40px;
 }
 
 .header,

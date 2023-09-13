@@ -1,7 +1,7 @@
 const HeaderComponent = () => {
   return (
     <header className="header">
-      <i class="fa-solid fa-headset logo"></i>
+      <i className="fa-solid fa-headset logo"></i>
       <nav className="nav">
         <ul className="links">
           <li className="link-item">

@@ -22,7 +22,7 @@ const MainSection1 = () => {
             }}
           >
             <div className="input-container">
-              <i class="fa-solid fa-magnifying-glass input-icon"></i>
+              <i className="fa-solid fa-magnifying-glass input-icon"></i>
               <input
                 type="text"
                 className="input input-type"
@@ -31,7 +31,7 @@ const MainSection1 = () => {
             </div>
 
             <div className="input-container">
-              <i class="fa-solid fa-location-dot input-icon"></i>
+              <i className="fa-solid fa-location-dot input-icon"></i>
               <input
                 type="text"
                 className="input input-zip"
