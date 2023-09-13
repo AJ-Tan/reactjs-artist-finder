@@ -19,19 +19,24 @@ body {
   background-position-y: -110px;
   background-color: var(--background-color);
   font-family: Poppins;
-  padding: 0 20px;
-  overflow-x: hidden;
-  position: relative;
 }
 
 .bg {
-  position: fixed;
+  position: absolute;
   z-index: -1;
   top: -100px;
   left: 0px;
 }
 
 #root {
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.header,
+.main,
+.footer {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
