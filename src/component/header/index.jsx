@@ -16,7 +16,7 @@ const HeaderComponent = () => {
           <li className="link-item">
             <a
               href="#"
-              className="link btn-link"
+              className="link link--btn"
               onClick={() => alert('Just a simple 1 page design')}
             >
               JOIN AS ARTIST

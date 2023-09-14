@@ -1,47 +1,40 @@
 .header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-  color: white;
-  font-size: 2rem;
+  color: var(--text-1-color-accent);
+  font-size: 1.7rem;
 }
 
 .links {
   list-style: none;
+
   display: flex;
-  gap: 10px;
-}
-
-.link-item {
-  margin-left: 20px;
-
-  font-family: inherit;
-  font-size: 0.85rem;
-
-  border-radius: 2px;
-  border: none;
-
-  cursor: pointer;
+  column-gap: 20px;
 }
 
 .link {
   text-decoration: none;
-  color: var(--text-color-1);
-  transition: all 0.4s;
-  padding: 10px 10px;
-  border-radius: 3px;
+  color: var(--text-1-color-accent);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.2s;
 }
 
 .link:hover {
-  color: var(--text-color-1-hover);
+  color: var(--text-1-color-accent-hover);
 }
 
-.btn-link {
-  background-color: var(--btn-color-1);
+.link--btn {
+  padding: 10px 15px;
+  background-color: var(--btn-1-accent);
+  transition: background-color 0.2s;
+  border-radius: var(--border-radius);
 }
-.btn-link:hover {
-  background-color: var(--btn-color-1-hover);
+
+.link--btn:hover {
+  background-color: var(--btn-1-accent-hover);
 }

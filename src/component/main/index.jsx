@@ -1,13 +1,13 @@
-import MainSection1 from './MainSection1';
-import MainSection2 from './MainSection2';
-import MainSection3 from './MainSection3';
+import IntroductionComponent from './IntroductionComponent';
+import CredentialComponent from './CredentialComponent';
+import HowComponent from './HowComponent';
 
 const MainComponent = () => {
   return (
     <main className="main">
-      <MainSection1 />
-      <MainSection2 />
-      <MainSection3 />
+      <IntroductionComponent />
+      <CredentialComponent />
+      <HowComponent />
     </main>
   );
 };

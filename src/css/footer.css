@@ -1,17 +1,16 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 
-  font-size: 0.8rem;
-  color: rgb(149, 149, 149);
+  color: rgb(157, 157, 157);
+  font-size: 0.9rem;
 }
 
 .footer-right {
   display: flex;
-  gap: 20px;
+  column-gap: 30px;
 }
 
-.footer-right *:hover {
+.footer-right > * {
   cursor: pointer;
 }
